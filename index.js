@@ -118,7 +118,16 @@ console.log(num5)
 console.log("")
 console.log("Level 11")
 
-let num6 = ( a< 5 && b<10)
-let num7 = ( a< 5 && b > 10)
-console.log(num6)
-console.log(num7)
+let cond1 = ( a< 5 && b<10)
+let cond2 = ( a< 5 && b > 10)
+console.log(cond1)
+console.log(cond2)
+
+// Level 12
+console.log("")
+console.log("Level 12")
+function compareand (numa,numb){
+    conda = (numa<5 && numb < 10)
+    console.log(conda)
+}
+console.log(compareand(a,b))
