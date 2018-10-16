@@ -90,9 +90,9 @@ return str = str.join(' ')
 }
 console.log("Proper Title Case : ",titleCase(sentenceG))
 
-// Level 8
+// Level 8 & 9
 console.log("")
-console.log("Level 8")
+console.log("Level 8 & 9")
 console.log("a = ",a)
 console.log("b = ",b)
 if (a < b){
@@ -105,3 +105,12 @@ else{
     console.log(a+' is equal to '+b)
 
 }
+
+// Level 10
+// Level 8 & 9
+console.log("")
+console.log("Level 10")
+console.log("a = ",a)
+console.log("is "+a+" equal to 10?")
+let num5 = (a == 10) ? "true" : "false"
+console.log(num5)
