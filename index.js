@@ -89,3 +89,19 @@ for (i=0 ; i<str.length ; i++){
 return str = str.join(' ')
 }
 console.log("Proper Title Case : ",titleCase(sentenceG))
+
+// Level 8
+console.log("")
+console.log("Level 8")
+console.log("a = ",a)
+console.log("b = ",b)
+if (a < b){
+    console.log(a+" is smaller than "+b)
+}
+else if (a >  b){
+    console.log(a+' is larger than '+b)
+}
+else{
+    console.log(a+' is equal to '+b)
+
+}
