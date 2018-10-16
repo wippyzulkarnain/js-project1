@@ -9,6 +9,7 @@ console.log("b = ",b)
 console.log("c = ",c)
 
 // Level 1
+console.log("")
 console.log("Level 1")
 console.log("a+b+c = ",a+b+c)
 console.log("a-b-c = ",a-b-c)
@@ -17,6 +18,7 @@ console.log("a/b = ",a/b)
 console.log("b%a = ",b%a)
 
 // Level 2
+console.log("")
 console.log("Level 2")
 let d = "lala"
 let e = "baba"
@@ -30,6 +32,8 @@ console.log("g = ",g)
 console.log("h = ",h)
 
 // Level 3
+console.log("")
+console.log("Level 3")
 let arr1 = [1,2,3]
 let arr2 = [4,5,6]
 let arr_combined = arr1.concat(arr2)
@@ -46,3 +50,19 @@ for (i=1 ; i <5 ; i++){
     arr_combined.push(arr_combined[x]+1)
 }
 console.log("menanmbahkan data ke dalam array dengan looping : ",arr_combined)
+
+// Level 4
+console.log("")
+console.log("Level 4")
+const sentenceA= "My Name is"
+const sentenceB= "Wippy Zulkarnain"
+console.log(sentenceA)
+console.log(sentenceB)
+
+// Level 5
+console.log("")
+console.log("Level 5")
+const sentenceC= sentenceA+" "+sentenceB
+console.log(sentenceC)
+const sentenceD=`${sentenceA} ${sentenceB}`
+console.log(sentenceD)
