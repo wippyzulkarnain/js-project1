@@ -74,3 +74,18 @@ let sentenceE=sentenceD.toUpperCase()
 console.log(sentenceE)
 let sentenceF=sentenceE.toLowerCase()
 console.log(sentenceF)
+
+// Level 7
+console.log("")
+console.log("Level 7")
+let sentenceG= "The WorlD iS NOT enOUGH"
+console.log(sentenceG)
+
+function titleCase(str) {
+str = str.toLowerCase().split(' ');
+for (i=0 ; i<str.length ; i++){
+    str[i]=str[i].charAt(0).toUpperCase()+str[i].slice(1) 
+}
+return str = str.join(' ')
+}
+console.log("Proper Title Case : ",titleCase(sentenceG))
