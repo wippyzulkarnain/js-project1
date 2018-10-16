@@ -131,3 +131,12 @@ function compareand (numa,numb){
     console.log(conda)
 }
 console.log(compareand(a,b))
+
+// Level 13
+console.log("")
+console.log("Level 13")
+function randomgenerator(){
+    var x = Math.floor(Math.random()*1000)
+    console.log(x)
+}
+randomgenerator()
