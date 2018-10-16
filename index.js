@@ -107,10 +107,18 @@ else{
 }
 
 // Level 10
-// Level 8 & 9
 console.log("")
 console.log("Level 10")
 console.log("a = ",a)
 console.log("is "+a+" equal to 10?")
 let num5 = (a == 10) ? "true" : "false"
 console.log(num5)
+
+// Level 11
+console.log("")
+console.log("Level 11")
+
+let num6 = ( a< 5 && b<10)
+let num7 = ( a< 5 && b > 10)
+console.log(num6)
+console.log(num7)
