@@ -66,3 +66,11 @@ const sentenceC= sentenceA+" "+sentenceB
 console.log(sentenceC)
 const sentenceD=`${sentenceA} ${sentenceB}`
 console.log(sentenceD)
+
+// Level 6
+console.log("")
+console.log("Level 6")
+let sentenceE=sentenceD.toUpperCase()
+console.log(sentenceE)
+let sentenceF=sentenceE.toLowerCase()
+console.log(sentenceF)
